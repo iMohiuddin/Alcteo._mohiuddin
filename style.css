@@ -1,0 +1,132 @@
+@media (max-width: 992px){
+    .navbar .searchicon{
+        display: none;
+    }
+}
+/* nave start */
+nav .navbar-logo::after{
+    content: ".";
+    color: aqua;
+    font-weight: bolder;
+}
+.navbar-collapse ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+.navbar-collapse ul li:nth-last-child(1){
+    margin-right: 4rem;
+}
+/* nav end */
+
+
+/* Slider  */
+.hero-img{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.527) , rgba(44, 44, 44, 0.678)),url("assets/img/headerimg.jpg");
+    height: 80vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider{
+    margin-top: 7rem;
+}
+.sliderbtn{
+    position: relative;
+    left: 45%;
+}
+/* slider end */
+.iconback{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(237, 239, 241);
+    border-radius: 999px;
+    position: relative;
+    align-self: center;
+}
+.iconback>i{
+    position: absolute;
+    align-self: center;
+    top: 2rem;
+    color: rgb(135, 148, 158);
+
+} 
+/* about */
+
+.hover-about:hover{
+    background-color: rgb(23, 218, 163);
+    color: while;
+}
+.hover-about:hover  i{
+    color: white;
+}
+.about-button{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.about-button button{
+    position: absolute;
+    align-self: center;
+    margin-left: 45%;
+    background-color:  rgb(23, 218, 163);
+    border-radius: 99px;
+    margin-top: 5rem;
+}
+/* about */
+
+/* team  */
+
+.bg-gray{
+    background-color: rgb(192, 190, 190);
+}
+.bg-gray:hover{
+    background-color: rgb(23, 218, 163);
+    color: white;
+}
+.bg-black{
+    background-color: rgb(255, 249, 249);
+}
+.bg-black:hover{
+    background-color: rgb(23, 218, 163);
+    color: white;
+}
+/* team  */
+
+/* middle hero  */
+.middle-hero{
+    background:url('assets/img/middleimg.jpg');
+    height: 60vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle-hero-content{
+    margin-top: 10rem;
+}
+/* middle hero  */
+
+/* footer */
+
+.footer-hero{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.527) , rgba(44, 44, 44, 0.678)),url('assets/img/footerimg.jpg');
+    height: 50vh;
+    background-position:center center;
+    background-size:cover;
+
+}
+
+.text-footer>h1{
+    position: relative;
+    top: 5rem;
+}
+.footer-end-img{
+    background: url('assets/img/footer-end-img.png');
+    height: 20rem;
+    background-position:center center;
+    background-size:cover;
+
+    
+}
+/* footer */
